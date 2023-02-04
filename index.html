@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+
+
+
+        <heading class="container text-center">
+
+            <heading class="row">
+
+                <heading class="col-4">
+
+                    <heading class="card" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><button class="btn btn-outline-primary btn-lg col-12">🎲 Roll
+                                    the Dice! </button></li>
+                            <li class="list-group-item"><button class="btn btn-outline-danger btn-lg col-12">🔃 Re-Start
+                                    the Game!</button></li>
+
+                        </ul>
+
+                        <img id="dice" class="card-img-top">
+
+                        <heading class="card-body">
+                            <h1 class="card-title"></h1>
+                            <h2 class="card-text"></h2>
+                            <img id="SoL">
+                        </heading>
+
+
+
+                    </heading>
+                    <!-- <heading class="">
+
+                        <button class="btn btn-outline-warning btn-lg col-12">🎲 Roll the Dice! </button>
+
+
+                        <h1></h1>
+                        <img id="dice">
+                        <h2></h2>
+                        
+                        <button class="btn btn-outline-danger btn-lg col-12">🔃 Re-Start the Game!</button>
+                    </heading> -->
+                </heading>
+
+                <heading class="col-8">
+                    <div class="grid">
+
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div class="snake">9 (-3)</div>
+                        <div class="ladder">10 (+6)</div>
+                        <div>11</div>
+                        <div class="snake">12 (-7)</div>
+                        <div>13</div>
+                        <div>14</div>
+                        <div class="ladder">15 (+10)</div>
+                        <div>16</div>
+                        <div>17</div>
+                        <div>18</div>
+                        <div>19</div>
+                        <div>20</div>
+                        <div class="ladder">21 (+12)</div>
+                        <div>22</div>
+                        <div class="snake">23 (-5)</div>
+                        <div>24</div>
+                        <div>25</div>
+                        <div>26</div>
+                        <div>27</div>
+                        <div>28</div>
+                        <div>29</div>
+                        <div class="ladder">30 (+20)</div>
+                        <div>31</div>
+                        <div>32</div>
+                        <div>33</div>
+                        <div>34</div>
+                        <div>35</div>
+                        <div>36</div>
+                        <div>37</div>
+                        <div class="snake">38 (-12)</div>
+                        <div>39</div>
+                        <div>40</div>
+                        <div>41</div>
+                        <div>42</div>
+                        <div>43</div>
+                        <div>44</div>
+                        <div>45</div>
+                        <div>46</div>
+                        <div>47</div>
+                        <div>48</div>
+                        <div>49</div>
+                        <div>50</div>
+                        <div>51</div>
+                        <div>52</div>
+                        <div class="ladder">53 (+21)</div>
+                        <div>54</div>
+                        <div>55</div>
+                        <div>56</div>
+                        <div>57</div>
+                        <div>58</div>
+                        <div>59</div>
+                        <div>60</div>
+                        <div>61</div>
+                        <div>62</div>
+                        <div>63</div>
+                        <div class="snake">64 (-10)</div>
+                        <div>65</div>
+                        <div>66</div>
+                        <div>67</div>
+                        <div>68</div>
+                        <div>69</div>
+                        <div>70</div>
+                        <div>71</div>
+                        <div>72</div>
+                        <div>73</div>
+                        <div>74</div>
+                        <div>75</div>
+                        <div>76</div>
+                        <div>77</div>
+                        <div>78</div>
+                        <div>79</div>
+                        <div>80</div>
+                        <div>81</div>
+                        <div>82</div>
+                        <div>83</div>
+                        <div class="snake">84 (-50)</div>
+                        <div>85</div>
+                        <div>86</div>
+                        <div>87</div>
+                        <div>88</div>
+                        <div>89</div>
+                        <div>90</div>
+                        <div>91</div>
+                        <div class="snake"> 92 (-30)</div>
+                        <div>93</div>
+                        <div>94</div>
+                        <div>95</div>
+                        <div>96</div>
+                        <div>97</div>
+                        <div>98</div>
+                        <div class="snake">99 (-90)</div>
+                        <div>100</div>
+
+                    </div>
+                </heading>
+
+            </heading>
+
+        </heading>
+
+
+        <footer>
+            <img id="goti" src="chess.png">
+        </footer>
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+
+
+    </body>
+
+</html>
